@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Restaurante PABENI es el mejor de Paraguay">
+		<meta name="keywords" content="comida paraguaya, restaurante">
+		<meta name="author" content="Pedro Duarte">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Restaurante PABENI - Contacto</title>
+		<link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,700;1,500&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,700;1,500&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/normalize.css">		
+		<link rel="stylesheet" href="libs/wow/animate.css">
+		<link rel="stylesheet" href="libs/owl/owl.carousel.css">
+		<link rel="stylesheet" href="libs/owl/owl.theme.default.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="shortcut icon" href="img/logo.png">
+		<script src="https://kit.fontawesome.com/279ef42a02.js" crossorigin="anonymous"></script>
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery-ui.js"></script>
+		<script src="libs/wow/wow.js"></script>
+		<script src="libs/owl/owl.carousel.js"></script>
+		<script src="libs/jquery-validation/jquery-validation.js"></script>
+	</head>
+	<body class="abierto">
+		<header class="cabecera">
+			<div class="container">
+				<a href="index.html" class="link-logo">
+					<img class="logo" src="img/logo.png" width="138" height="140">
+				</a>
+				<nav class="menu">
+					<a href="index.html#lacarta">La Carta</a>
+					<a href="index.html#locales">Locales</a>
+					<a href="nosotros.html">Nosotros</a>
+					<a href="contacto.html" class="seleccionado" target="_self">Contacto</a>
+					<a href="intranet.html" target="_blank">Intranet</a>
+				</nav>
+				<a href="#" class="hamb"><i class="fa-solid fa-bars"></i></a>
+			</div>
+		</header>
+		<main>
+			<section id="banner" class="banner-contacto"> 
+					<img class="banner-home" src="img/contacto.jpeg" width="1366" height="765">
+					<div class="container">
+						<div class="fila fila-centrada">
+							<div class="columna columna-50 columna-mb-100">
+								<h1 class="centrar-texto">Contáctanos</h1>
+							</div>
+						</div>
+					</div>
+					<a href="#" class="saltarina"><i class="fa-solid fa-chevron-down"></i></a>
+			</section>
+			<section id="contacto" class="seccion">
+				<div class="container">
+					<div class="fila">
+						<div class="columna columna-50 columna-mb-100 derecha-texto columna-info-contacto orden">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua.</p>
+							<h2>Monseñor Escriva de Ballaguer 189, Asunción - Paraguay</h2>
+							<a href="Tel:+595971131263" class="telefono">+595971 131263</a>
+							<a href="mailto:nuevocorreo@gmail.com" class="email">nuevocorreo@gmail.com</a>
+						</div>
+						<div class="columna columna-50 columna-mb-100">
+							<form id="frmcontacto" action="registro.php" method="post">
+								<div class="form-bloques">
+									<input id="nombre" class="form-input" type="text" placeholder="Nombre" name="nombre" required>
+								</div>	
+								<div class="form-bloques">
+									<input id="email" class="form-input" type="email" placeholder="Email" name="email" required>
+								</div>
+								<div class="form-bloques">
+									<input id="asunto" class="form-input" type="text" placeholder="Asunto" name="asunto" required>
+								</div>
+								<div class="form-bloques">
+									<textarea id="mensaje"class="form-input" required name="mensaje" placeholder="Mensaje"></textarea>
+								</div>
+								<div class="form-bloques form-bloque-boton">
+									<input type="submit" value="Enviar" class="btn boton-amarillo btn-enviar">
+								</div>	
+								<div class="form-bloques form-bloque-rpta">
+									<div id="respuesta"></div>
+								</div>				 
+							</form>
+						</div>
+					</div>		 
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div class="prefooter">
+				<div class="container">
+					<div class="fila">
+						<div class="columna columna-100">
+							<div class="mapa">
+								<iframe width="520" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=%20+(Paraguay)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+							</div>					
+						</div>
+					</div>
+				</div>
+			</div>						
+			<div class="pie">
+				<div class="container">
+					<div class="fila">
+						<div class="columna columna-33 empujar-mb-0 columna-mb-100 orden lista-redes">
+							<a href="#"><i class="fa-brands fa-facebook"></i></a>
+							<a href="#"><i class="fa-brands fa-instagram"></i></a>
+							<a href="#"><i class="fa-brands fa-twitter"></i></a>
+							<a href="#"><i class="fa-regular fa-envelope"></i></a>
+						</div>
+						<div class="columna columna-33 columna-mb-100">
+							&reg; Derechos Reservados 2023</div>
+						<div class="columna columna-33"></div>
+					</div>
+				</div>
+			</div>			
+		</footer>
+		<div class="trama-2"></div>
+		<div class="logo-load"><img src="img/logo.png"></div>
+		<div class="trama"></div>
+		<script src="js/funciones.js"></script>
+	</body>
+</html>
